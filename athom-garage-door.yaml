@@ -54,7 +54,7 @@ binary_sensor:
     id: contact
     pin:
       number: GPIO4
-      inverted: true
+      inverted: false
     filters:
       - delayed_on: 20ms
 
